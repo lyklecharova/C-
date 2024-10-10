@@ -27,9 +27,7 @@ int main(int args, char *argv[])
     cout << "a * b = " << a * b << endl;
     cout << "b * 4 = " << b * 4 << endl;
 
-    cin.ignore(); // Игнорирай новия ред от предишния вход
-    cout << "Натиснете Enter, за да затворите терминала..." << endl;
-    cin.get(); // Изчаква натискане на Enter
+    system("pause");
 
     return 0;
 }
