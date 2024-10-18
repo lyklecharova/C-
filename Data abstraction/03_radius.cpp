@@ -12,10 +12,11 @@ int main()
     const double PI = 3.1415;
 
     double r;
+    cin >> r;
     double p = 2 * PI * r;
     double s = PI * r * r;
 
-    cin >> r;
+    
     cout << "p = " << p << "\n";
     cout << "s = " << s << "\n";
 
