@@ -59,7 +59,8 @@
   "files.associations": {
     "iostream": "cpp",
     "ostream": "cpp",
-    "cstdlib": "cpp"
+    "cstdlib": "cpp",
+    "algorithm": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled",
   "terminal.integrated.fontFamily": "Courier New, Lucida Console, monospace",
