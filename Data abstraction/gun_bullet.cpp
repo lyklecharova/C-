@@ -5,18 +5,21 @@
 
 using namespace std;
 
+// Using CONST
+const double MUZZLE_SPEED = 400; // m/s
+const double BARREL = 0.8;       // m
+const double MASS_GRAMS = 5.0;
+
 int main()
 {
   SetConsoleOutputCP(CP_UTF8);
   SetConsoleCP(CP_UTF8);
 
-  double muzzleSpeed = 400;            // m/s
-  double barrel = 0.8;                 // m
-  double massOfTheBullet = 5.0 / 1000; // Convert to kg
+  double massOfTheBullet = MASS_GRAMS / 1000; // Convert to kg
 
   // a = v^2 / (2 * s)
-  // double acceleration = (muzzleSpeed * muzzleSpeed) / (2 * barrel);
-  double acceleration = pow(muzzleSpeed, 2) / (2 * barrel);
+  // double acceleration = (MUZZLE_SPEED * MUZZLE_SPEED) / (2 * BARREL);
+  double acceleration = pow(MUZZLE_SPEED, 2) / (2 * BARREL);
 
   // F = m * a
   double force = massOfTheBullet * acceleration;
