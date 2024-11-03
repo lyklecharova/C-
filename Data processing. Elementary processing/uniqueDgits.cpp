@@ -13,6 +13,13 @@ int main()
     cout << "Enter a four-digit number: ";
     cin >> a;
 
+    // Check if the number is four digits
+    if (a < 1000 || a > 9999)
+    {
+        cout << "Please enter a valid four-digit number." << endl;
+        return 1; // Exit with an error
+    }
+
     // Extracting the digits of the number
     int d1 = a / 1000;
     int d2 = (a / 100) % 10;
