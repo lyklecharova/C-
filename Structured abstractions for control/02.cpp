@@ -11,7 +11,12 @@ int main()
     int a;
     cout << "a=";
     cin >> a;
-
+    if (!cin)
+    {
+        cout << "Error";
+        return 1;
+    }
+    
     if (a % 3 == 0)
     {
         cout << "Yes" << endl;
