@@ -1,17 +1,15 @@
 {
-    "configurations": [
-        {
-            "name": "windows-gcc-x64",
-            "includePath": [
-                "${workspaceFolder}/**",
-                "C:/mingw-w64/mingw64/include",
-                "C:/mingw-w64/mingw64/x86_64-w64-mingw32/include"
-            ],
-            "compilerPath": "C:/mingw-w64/mingw64/bin/g++.exe",
-            "cStandard": "c11", // or you can set "${default}" if you want to use default
-            "cppStandard": "c++17", // or set "${default}" if you want to use default
-            "intelliSenseMode": "windows-gcc-x64"
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "windows-gcc-x64"
+    }
+  ],
+  "version": 4
 }
