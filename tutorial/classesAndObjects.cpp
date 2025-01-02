@@ -5,7 +5,6 @@ class Book
 {
 public:
 	string title;
-	string title;
 	string author;
 	int pages;
 };
