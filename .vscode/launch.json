@@ -56,8 +56,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/GitHub/C-",
-      "program": "d:/GitHub/C-/build/Debug/outDebug",
+      "cwd": "d:/GitHub/C-/tutorial",
+      "program": "d:/GitHub/C-/tutorial/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
